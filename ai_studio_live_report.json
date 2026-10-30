@@ -1,0 +1,127 @@
+{
+  "app": "PaperTrail",
+  "version": "1.0.0",
+  "exportedAt": "2026-10-29T20:13:35.886Z",
+  "notice": "All sample notes in this collection are fictional teaching examples designed to demonstrate research methodology, not published empirical papers.",
+  "activeNotesCount": 5,
+  "session": {
+    "question": "How does triangulation establish construct validity, and what are its operational limitations?",
+    "mode": "live_gemini",
+    "model": "gemini-3.1-flash-lite",
+    "answer": "Triangulation establishes construct validity by requiring convergent evidence across at least two independent empirical modalities (e.g., combining qualitative interviews, observational telemetry, and quantitative surveys) before accepting a primary hypothesis [method_triangulation].\n\nThe primary operational limitation is divergent instrument sensitivity, where different data collection methods—such as high-resolution logs and self-reported survey scales—may capture different phenomena or levels of detail, leading to conflicting observations [method_triangulation]. To address this, investigators are advised to pre-register divergence arbitration protocols to mitigate the risk of post-hoc justification [method_triangulation].",
+    "citationReport": {
+      "citedIds": [
+        "method_triangulation"
+      ],
+      "validCitations": [
+        "method_triangulation"
+      ],
+      "ungroundedCitations": [],
+      "isFullyGrounded": true,
+      "retrievedDocIds": [
+        "method_triangulation"
+      ],
+      "allNotesCount": 5
+    },
+    "evidenceCards": [
+      {
+        "id": "method_triangulation",
+        "title": "Triangulation and Cross-Modal Convergence in Behavioral Epistemology",
+        "text": "Triangulation combines qualitative interviews, observational telemetry, and quantitative survey instruments to cross-validate social behavioral phenomena. Researchers establish construct validity by demanding convergent evidence across at least two independent empirical modalities before accepting a primary hypothesis. The primary operational limitation lies in divergent instrument sensitivity, where high-resolution logs reveal micro-fluctuations that self-reported survey scales routinely miss. Investigators must pre-register divergence arbitration protocols to avoid post-hoc justification when conflicting observations emerge.",
+        "overlap_score": 406,
+        "matched_tokens": [
+          "triangulation",
+          "construct",
+          "validity",
+          "operational"
+        ]
+      }
+    ],
+    "actionTrace": [
+      {
+        "step": 1,
+        "type": "tool_call",
+        "action": {
+          "tool": "search_documents",
+          "callId": "call_49616",
+          "args": {
+            "query": "triangulation construct validity operational limitations",
+            "limit": 5
+          }
+        },
+        "observation": {
+          "results": [
+            {
+              "id": "method_triangulation",
+              "title": "Triangulation and Cross-Modal Convergence in Behavioral Epistemology",
+              "text": "Triangulation combines qualitative interviews, observational telemetry, and quantitative survey instruments to cross-validate social behavioral phenomena. Researchers establish construct validity by demanding convergent evidence across at least two independent empirical modalities before accepting a primary hypothesis. The primary operational limitation lies in divergent instrument sensitivity, where high-resolution logs reveal micro-fluctuations that self-reported survey scales routinely miss. Investigators must pre-register divergence arbitration protocols to avoid post-hoc justification when conflicting observations emerge.",
+              "overlap_score": 406,
+              "matched_tokens": [
+                "triangulation",
+                "construct",
+                "validity",
+                "operational"
+              ]
+            }
+          ],
+          "retrieved_count": 1,
+          "message": "Retrieved 1 documents matching token overlap."
+        },
+        "status": "success",
+        "latencyMs": 878
+      },
+      {
+        "step": 2,
+        "type": "final_answer",
+        "action": null,
+        "observation": null,
+        "finalText": "Triangulation establishes construct validity by requiring convergent evidence across at least two independent empirical modalities (e.g., combining qualitative interviews, observational telemetry, and quantitative surveys) before accepting a primary hypothesis [method_triangulation].\n\nThe primary operational limitation is divergent instrument sensitivity, where different data collection methods—such as high-resolution logs and self-reported survey scales—may capture different phenomena or levels of detail, leading to conflicting observations [method_triangulation]. To address this, investigators are advised to pre-register divergence arbitration protocols to mitigate the risk of post-hoc justification [method_triangulation].",
+        "status": "success",
+        "latencyMs": 1205
+      }
+    ],
+    "totalLatencyMs": 2087
+  },
+  "notesSnapshot": [
+    {
+      "id": "method_triangulation",
+      "title": "Triangulation and Cross-Modal Convergence in Behavioral Epistemology",
+      "isTeachingExample": true,
+      "notice": "Fictional teaching example — not a published paper",
+      "category": "Methodology",
+      "text": "Triangulation combines qualitative interviews, observational telemetry, and quantitative survey instruments to cross-validate social behavioral phenomena. Researchers establish construct validity by demanding convergent evidence across at least two independent empirical modalities before accepting a primary hypothesis. The primary operational limitation lies in divergent instrument sensitivity, where high-resolution logs reveal micro-fluctuations that self-reported survey scales routinely miss. Investigators must pre-register divergence arbitration protocols to avoid post-hoc justification when conflicting observations emerge."
+    },
+    {
+      "id": "method_rct_blinding",
+      "title": "Cryptographic Masking and Expectancy Bias in Non-Pharmacological Trials",
+      "isTeachingExample": true,
+      "notice": "Fictional teaching example — not a published paper",
+      "category": "Clinical & Behavioral Trials",
+      "text": "Double-blind randomized controlled trials minimize allocation and observer bias through automated cryptographic treatment assignment and masked outcome adjudications. In educational and behavioral interventions, complete blinding remains challenging because participants can often deduce whether they belong to experimental or control cohorts. Active sham comparators and objective performance metrics provide partial mitigation against expectancy artifacts in non-pharmacological settings. Methodologists emphasize that failure to maintain blinding introduces systematic performance bias that distorts comparative intervention outcomes."
+    },
+    {
+      "id": "method_synthetic_control",
+      "title": "Convex Weighting and Counterfactual Permutations in Policy Shock Estimation",
+      "isTeachingExample": true,
+      "notice": "Fictional teaching example — not a published paper",
+      "category": "Econometrics & Causal Inference",
+      "text": "Synthetic control methodology evaluates policy impacts by constructing a convex weighted combination of untreated comparative units to mimic the counterfactual trajectory of a treated entity. The estimator requires extensive pre-intervention time series data to demonstrate that the weighted synthetic peer tracked the target unit accurately prior to shock exposure. Confounding arises when idiosyncratic shocks hit donor pool members during the post-treatment window, corrupting the estimated counterfactual trajectory. Placebo permutation tests across all donor candidates must be conducted to establish whether the observed effect size exceeds chance distribution thresholds."
+    },
+    {
+      "id": "method_grounded_theory",
+      "title": "Theoretical Saturation and Reflexivity Safeguards in Inductive Fieldwork",
+      "isTeachingExample": true,
+      "notice": "Fictional teaching example — not a published paper",
+      "category": "Qualitative Methods",
+      "text": "Constructivist grounded theory employs iterative inductive coding and continuous theoretical sampling to derive substantive conceptual models directly from empirical participant narratives. Rather than testing pre-existing deductive hypotheses, researchers pursue category saturation until incremental interview rounds yield zero novel thematic dimensions. A major vulnerability is researcher reflexivity bias, wherein analysts inadvertently project personal epistemological assumptions onto unstructured field transcripts. Peer debriefing panels and transparent coding audit trails serve as necessary methodological safeguards against idiosyncratic conceptual drift."
+    },
+    {
+      "id": "method_benchmark_drift",
+      "title": "Longitudinal Decay and Leakage Auditing in Computational Evaluation Suites",
+      "isTeachingExample": true,
+      "notice": "Fictional teaching example — not a published paper",
+      "category": "AI & Computational Benchmarking",
+      "text": "Longitudinal benchmark calibration quantifies metric degradation and data contamination across standard academic machine-learning evaluation suites over multi-year cycles. Models evaluated on static leaderboards exhibit synthetic score inflation as training corpora inadvertently ingest leaked test splits or test-adjacent syntaxes. Dynamic canary token auditing and periodically refreshed private test distributions reveal that true generalizability lags published state-of-the-art claims by substantial margins. Reproducibility guidelines strongly advocate for isolated holdout validation sets administered strictly by independent third-party audit repositories."
+    }
+  ]
+}
