@@ -6,9 +6,31 @@ retrieval, cited answers, and JSON/text export.
 ## AI Studio project and deliverables
 
 [Open the AI Studio project](https://aistudio.google.com/apps/a86d88c2-5d59-4bc6-862d-be6e6cc22273).
-The project uses React and Node. This repository includes its prompt,
-configuration and live exports, plus a separate local implementation using
-Python, HTML and JavaScript.
+The original AI Studio React/Node implementation is included in
+[`aistudio-source/`](aistudio-source/), with the original server modules, React
+components, data, types, configuration and Bun lockfile. These 25 source files
+were copied directly from the saved AI Studio project without rewriting their
+code. `aistudio-source-manifest.json` records their hashes and validation.
+
+This repository also includes the prompts, configuration and live exports, plus
+a separate dependency-free Python/HTML/JavaScript implementation at the root.
+
+### Run the original AI Studio app
+
+```bash
+cd aistudio-source
+npm install
+npm run dev
+```
+
+Open http://localhost:3000. Offline mode requires no key. For live Gemini mode,
+set `GEMINI_API_KEY` in your environment; `.env.example` contains placeholders
+only. Select `gemini-3.1-flash-lite`, the model verified in the live run. Do not
+commit real keys. Build the original frontend with `npm run build`.
+
+On 2026-11-01 the exported original project passed its production build and
+local HTTP checks for retrieval, no matches and invalid input. The earlier
+live AI Studio results are preserved in the JSON/text reports below.
 
 - `ai_studio_build_prompt.txt`: app-building prompt.
 - `research_agent_prompt.txt`: system prompt and two few-shot examples.

@@ -1,0 +1,165 @@
+{
+  "project": "PaperTrail",
+  "source": "Original AI Studio code-editor files, copied without rewriting code",
+  "files": [
+    {
+      "path": "package.json",
+      "length": 937,
+      "bytes": 937,
+      "sha256": "c7a2170d43fa8b4921f779aaaf1d197ad0ede065f2a7c6b9914f487894552c36"
+    },
+    {
+      "path": "server/geminiLoop.ts",
+      "length": 12517,
+      "bytes": 12517,
+      "sha256": "dca73fa4f30458e393f46f5e63186f8c4b32d098194219735d2481cd332a7791"
+    },
+    {
+      "path": "server/offlineExtractive.ts",
+      "length": 4762,
+      "bytes": 4762,
+      "sha256": "213ff1134ac4b603443042d57b0c207e9716fd04cc6e82a755302075847ed1d7"
+    },
+    {
+      "path": "server/tokenOverlap.ts",
+      "length": 4580,
+      "bytes": 4580,
+      "sha256": "4752c644c1771f2685346c87693719f39a57a899e3ca1e07d366f0618b809f49"
+    },
+    {
+      "path": "src/components/ActionLog.tsx",
+      "length": 8811,
+      "bytes": 8815,
+      "sha256": "6dfd838ac7419ad7e6bad4bda81bdb1e6c0328f9779c9c29c6963548805c235f"
+    },
+    {
+      "path": "src/components/EvidenceCards.tsx",
+      "length": 5056,
+      "bytes": 5059,
+      "sha256": "52c6bb728e18ec8497b508ad1517281f7b2665c0f2c3f51c06ff1fffac02f781"
+    },
+    {
+      "path": "src/components/ExportModal.tsx",
+      "length": 10698,
+      "bytes": 10702,
+      "sha256": "51444ed54b8e226814cc77d0cd67b8683662164d10bb3307f8df31fbc04c4400"
+    },
+    {
+      "path": "src/components/Header.tsx",
+      "length": 4568,
+      "bytes": 4569,
+      "sha256": "cd66fb1ee304c15db057e68423b02a8b650685fb4e019365b4b28aba6cab416e"
+    },
+    {
+      "path": "src/components/JsonCollectionModal.tsx",
+      "length": 5981,
+      "bytes": 5984,
+      "sha256": "bea55e8716a1a8c9a3ac416680b427bc00dfb709e2ab1fd1ec632ece806b6d14"
+    },
+    {
+      "path": "src/components/NoteEditorModal.tsx",
+      "length": 9632,
+      "bytes": 9632,
+      "sha256": "5338f15c51f6d3f24442c35bb67374acd005fb9210e1badfe0ab00814f86159e"
+    },
+    {
+      "path": "src/components/PaperCollection.tsx",
+      "length": 10774,
+      "bytes": 10782,
+      "sha256": "c6cf2c9335634b46bdf572d9d2d322abd3ac418a19afccebc5b3ded19078c16e"
+    },
+    {
+      "path": "src/components/ResearchDesk.tsx",
+      "length": 18099,
+      "bytes": 18101,
+      "sha256": "67d021d989a929758fc5d47c67ea71498f081c7b73fb33a81ebe6dbdc6cd3bb7"
+    },
+    {
+      "path": "src/data/defaultNotes.ts",
+      "length": 6897,
+      "bytes": 6897,
+      "sha256": "e39970f0b80b9281b192f3132d210f56600bb775dd49af6400cfe9a25a7bac50"
+    },
+    {
+      "path": "src/types/research.ts",
+      "length": 1961,
+      "bytes": 1961,
+      "sha256": "bdae1e94824f48581d5631aec3250c8d76c07211a5bc60b07bb57c0aab91fc86"
+    },
+    {
+      "path": "src/App.tsx",
+      "length": 10242,
+      "bytes": 10242,
+      "sha256": "cb193912847718250717171d05e43a0c0023b6cc69d5da361a5ccf792b652da9"
+    },
+    {
+      "path": "src/index.css",
+      "length": 434,
+      "bytes": 434,
+      "sha256": "3110c663509fd25bc264eccb40579ee2d70a6b749439e224dbc0c977d02c9b43"
+    },
+    {
+      "path": "src/main.tsx",
+      "length": 164,
+      "bytes": 164,
+      "sha256": "47ae3e53e64c565ee24467e34ec314be9b42a56ba76b02ced3bd8e923675b43c"
+    },
+    {
+      "path": ".env.example",
+      "length": 454,
+      "bytes": 454,
+      "sha256": "997fd4cabe96dd692f1dde691a3ea157e86d97c577dfa7198690a91169278bad"
+    },
+    {
+      "path": ".gitignore",
+      "length": 81,
+      "bytes": 81,
+      "sha256": "eb13e93639d4c770f0a28ba670e9f4a922bc20ff1e734bdbe916740b0ae13d74"
+    },
+    {
+      "path": "bun.lock",
+      "length": 71945,
+      "bytes": 71945,
+      "sha256": "a66ae5ef809b15acfb67c5d57657718fcdf6d22db2a934c104e1f64cd47a84de"
+    },
+    {
+      "path": "index.html",
+      "length": 1285,
+      "bytes": 1287,
+      "sha256": "e22cc4d4728bae8386d7633f00b37c77166e6752ca34e6abc6f393948d9a0f85"
+    },
+    {
+      "path": "metadata.json",
+      "length": 277,
+      "bytes": 277,
+      "sha256": "0de9bfac33e61852fe0997dcc2cf09e8d7738ee45dbfc731306c565c1523f78e"
+    },
+    {
+      "path": "server.ts",
+      "length": 4559,
+      "bytes": 4559,
+      "sha256": "f4cebb62c53c92836b691eef6e9f49e1c3609237986080e236f82a1502b84645"
+    },
+    {
+      "path": "tsconfig.json",
+      "length": 589,
+      "bytes": 589,
+      "sha256": "c55d1fb1febd860efb07d3968371a7324e17b015fb48cfcaa7d17c2427e4c1e7"
+    },
+    {
+      "path": "vite.config.ts",
+      "length": 725,
+      "bytes": 727,
+      "sha256": "e2b951ea8ad28347fbd791da1011ca4222ed86e7d19bb54de20acde30487fc96"
+    }
+  ],
+  "exported_date": "2026-11-01",
+  "verification": {
+    "production_build": "PASS (pnpm run build; Vite 8.3.5)",
+    "offline_retrieval": "PASS (2 evidence cards)",
+    "no_match": "PASS (0 evidence cards and missing-evidence answer)",
+    "invalid_input": "PASS (HTTP 400)",
+    "secrets": "Only .env.example placeholders; no real key included"
+  },
+  "root_in_repository": "aistudio-source"
+}
