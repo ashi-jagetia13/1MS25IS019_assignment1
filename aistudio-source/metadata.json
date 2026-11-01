@@ -1,0 +1,6 @@
+{
+  "name": "PaperTrail",
+  "description": "Responsive research-paper assistant with grounded bounded function calling, citation verification, and evidence synthesis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
